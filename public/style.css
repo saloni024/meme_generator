@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 80px;
+    width: auto;
+    background: linear-gradient(to right, purple,blue);
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+header > h1{
+    font-size: 40px;
+    font-family: 'New Tegomin', serif;
+    display: inline;
+    padding-right: 2%;
+    color: gainsboro;
+}
+.meme{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.meme-image{
+    width: 100%;
+}
+.meme > h2{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    color: white;
+    margin: 15px 0;
+    left: 50%;
+    font-family: 'New Tegomin', serif;
+    text-shadow: 2px 2px 8px black;
+
+}
+.top{
+    top: 0px;
+}
+.bottom{
+    bottom: 0px;
+}
